@@ -28,7 +28,7 @@ const WhyFollowersImportant = () => {
                         </p>
                     </div>
 
-                    <div className="flex justify-center items-center ">
+                    <div className="flex justify-center items-center order-1 md:order-2">
                         <div className="w-74 h-104 flex items-center justify-center">
                             <img src="/why-buy.jpg" alt="why-followers" className="w-full h-full object-cover rounded-[100px]" />
                         </div>
@@ -37,13 +37,16 @@ const WhyFollowersImportant = () => {
 
                 {/* Boost Organic Growth - Image Left, Text Right */}
                 <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto text-center md:text-left justify-center items-center mb-24">
-                    <div className="flex justify-center items-center">
+
+                    
+
+                    <div className="flex justify-center items-center order-1 md:order-2">
                         <div className="w-74 h-104 flex items-center justify-center">
                             <img src="/boost-organic.jpg" alt="boost-organic" className="w-full h-full object-cover rounded-[100px]" />
                         </div>
                     </div>
 
-                    <div className="max-w-sm">
+                    <div className="max-w-sm order-1 md:order-2">
                         <h3 className="text-3xl md:text-4xl font-bold mb-4">
                             Boost Organic<br />Growth
                         </h3>
